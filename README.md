@@ -38,7 +38,7 @@ nothing to run locally.
        runs-on: ubuntu-latest
        steps:
          - uses: actions/checkout@v4
-         - uses: liontude/easyi18n-action@v1
+         - uses: easyi18n-com/action@v1
            with:
              token: ${{ secrets.EASYI18N_TOKEN }}
              max-credits: '50'
